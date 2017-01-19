@@ -1,0 +1,32 @@
+{
+  "name": "stylelint-config-example-shared",
+  "version": "0.0.1",
+  "description": "Example Stylelint shared configuration",
+  "main": "index.js",
+  "scripts": {
+    "lint:js": "eslint .",
+    "lint:editorconfig": "lintspaces --editorconfig .editorconfig --ignores \"js-comments\" --matchdotfiles \"./!(node_modules|.tmp|.git|.idea)/**/!(.DS_Store)*\" \"./!(.DS_Store|LICENSE)*\"",
+    "test": "npm-run-all --parallel lint:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jrencz@github.com/jrencz/stylelint-config-example-shared.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "Jarek Rencz <jarek.rencz@functionite.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jrencz/stylelint-config-example-shared/issues"
+  },
+  "homepage": "https://github.com/jrencz/stylelint-config-example-shared#readme",
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "stylelint-config-example-shared": "github:jrencz/eslint-config-example-shared",
+    "lintspaces": "^0.5.0",
+    "lintspaces-cli": "github:jrencz/lintspaces-cli#dotfiles",
+    "npm-run-all": "^4.0.1"
+  }
+}
