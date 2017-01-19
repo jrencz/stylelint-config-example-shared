@@ -33,6 +33,7 @@
     "npm-run-all": "^4.0.1"
   },
   "dependencies": {
+    "find-root": "^1.0.0",
     "stylelint-config-property-sort-order-smacss": "^1.0.2",
     "stylelint-config-sass-guidelines": "^1.1.1",
     "stylelint-config-standard": "^15.0.1",
