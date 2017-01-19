@@ -3,3 +3,4 @@
 .nvmrc
 .travis.yml
 LICENSE
+skipWords.json5
