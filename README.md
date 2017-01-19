@@ -72,3 +72,6 @@ Array of strings syntax is also accepted:
 ```
 
 now both `my-fancy-component` and `other-fancy-component` are valid.
+
+[ci-img]: https://travis-ci.org/jrencz/stylelint-config-example-shared.svg
+[ci]: https://travis-ci.org/jrencz/stylelint-config-example-shared
