@@ -22,11 +22,17 @@
     "url": "https://github.com/jrencz/stylelint-config-example-shared/issues"
   },
   "homepage": "https://github.com/jrencz/stylelint-config-example-shared#readme",
+  "peerDependencies": {
+    "stylelint": "^7.6.0"
+  },
   "devDependencies": {
     "eslint": "^3.13.1",
     "stylelint-config-example-shared": "github:jrencz/eslint-config-example-shared",
     "lintspaces": "^0.5.0",
     "lintspaces-cli": "github:jrencz/lintspaces-cli#dotfiles",
     "npm-run-all": "^4.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-sass-guidelines": "^1.1.1"
   }
 }
