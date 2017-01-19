@@ -6,7 +6,9 @@
   "scripts": {
     "lint:js": "eslint .",
     "lint:editorconfig": "lintspaces --editorconfig .editorconfig --ignores \"js-comments\" --matchdotfiles \"./!(node_modules|.tmp|.git|.idea)/**/!(.DS_Store)*\" \"./!(.DS_Store|LICENSE)*\"",
-    "test": "npm-run-all --parallel lint:*"
+    "lint": "npm-run-all --parallel lint:*",
+    "pretest": "npm run lint",
+    "test": "echo \"No tests yet\"; exit 0;"
   },
   "repository": {
     "type": "git",
